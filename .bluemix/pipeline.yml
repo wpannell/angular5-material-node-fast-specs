@@ -20,7 +20,7 @@ stages:
           git config --global user.name "wil.pannell"
 
           export NVM_DIR=/home/pipeline/nvm
-          export NODE_VERSION=v7.10.1
+          export NODE_VERSION=v8.9.4
           export NVM_VERSION=v0.33.2
           npm config delete prefix \
             && curl https://raw.githubusercontent.com/creationix/nvm/${NVM_VERSION}/install.sh | sh \
@@ -94,7 +94,7 @@ stages:
           git config --global user.name "wil.pannell"
 
           export NVM_DIR=/home/pipeline/nvm
-          export NODE_VERSION=v7.10.1
+          export NODE_VERSION=v8.9.4
           export NVM_VERSION=v0.33.2
           npm config delete prefix \
             && curl https://raw.githubusercontent.com/creationix/nvm/${NVM_VERSION}/install.sh | sh \
@@ -174,7 +174,7 @@ stages:
           git config --global user.name "wil.pannell"
 
           export NVM_DIR=/home/pipeline/nvm
-          export NODE_VERSION=v7.10.1
+          export NODE_VERSION=v8.9.4
           export NVM_VERSION=v0.33.2
           npm config delete prefix \
             && curl https://raw.githubusercontent.com/creationix/nvm/${NVM_VERSION}/install.sh | sh \
